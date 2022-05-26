@@ -4,14 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {Header} from "./components/layout/Header";
 import {Map} from "./components/Map/Map";
+import {App} from "./App";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-        <Header />
-        <Map />
+        <App/>
   </React.StrictMode>
 );
 
